@@ -1,0 +1,66 @@
+.yith-wrvp-shortcode-tab .shortcode-options,
+.yith-wrvp-shortcode-tab .shortcode-preview {
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+}
+.yith-wrvp-shortcode-tab .shortcode-preview {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #fff;
+    font-size: 17px;
+    color: #333;
+    line-height: 26px;
+}
+.yith-wrvp-shortcode-tab h4 {
+    margin-top: 0;
+}
+
+#yith-wrvp-test-mail {
+    width: 300px;
+}
+#yith_num_post {
+    width: 80px;
+}
+input#yith_title,
+select#yith_order,
+select#yith_prod_type {
+    width: 250px;
+}
+
+/* tinymce */
+i.mce-i-ywrvp-icon {
+    background-image: url('../images/yithemes-icon.png') ;
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -2px;
+    padding-right: 2px
+}
+
+.yith-wrvp.upload_img_preview img {
+    max-width: 100px;
+    height: auto;
+}
+#woocommerce_yith_wrvp_mail_mail_content {
+    width: 100%;
+}
+
+.yith_wrvp_coupon_validate {
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: right top;
+}
+.yith_wrvp_coupon_validate.valid {
+    background-image: url('../images/success.png');
+}
+.yith_wrvp_coupon_validate.error {
+    background-image: url('../images/error.png');
+}
+.yith_wrvp_coupon_validate.loading {
+    background-image: url('../images/ajax-loader.gif');
+}
+#woocommerce_yith_wrvp_mail_title_coupon_section {
+    margin-bottom: 10px !important;
+}
